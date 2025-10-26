@@ -1,0 +1,7 @@
+<Defs>
+  <JobDef>
+    <defName>ForceOpenDoorJob</defName>
+    <driverClass>ForceOpenDoor.JobDriver_ForceOpenDoor</driverClass>
+    <reportString>Opening/Closing TargetA.</reportString>
+  </JobDef>
+</Defs>

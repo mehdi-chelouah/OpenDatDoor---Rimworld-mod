@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[QoL] OpenDatDoor</name>
+  <author>Guezzy</author>
+  <supportedVersions>
+    <li>1.6</li>
+	<li>1.5</li>
+  </supportedVersions>
+  <description>Adds a right-click option to force a door to open and close when a colonist is selected. The colonist will move towards the door and change its state.</description>
+  <packageId>guezzy.opendatdoor</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>
