@@ -65,7 +65,7 @@ namespace ForceOpenDoor
                 }
 
                 // Changer le texte en fonction de l'état actuel
-                string text = isHoldingOpen ? "Close the door" : "Open the door";
+                string text = isHoldingOpen ? "Closethedoor".Translate() : "Openthedoor".Translate();
 
                 Action action = delegate
                 {
@@ -79,7 +79,7 @@ namespace ForceOpenDoor
                 // Vérifiez si le pawn peut atteindre la porte
                 if (!pawn.CanReach(door, PathEndMode.OnCell, Danger.Some))
                 {
-                    text = text + " (Cannot reach the door)";
+                    text = text + "Cannotreachthedoor".Translate();
                     action = null;
                 }
 
