@@ -43,7 +43,7 @@ namespace ForceOpenDoor
 
         public override bool TargetThingValid(Thing thing, FloatMenuContext context)
         {
-            return thing is Building_Door door && door.Faction != null && door.Faction.IsPlayer;
+            return thing is Building_Door door && (door.Faction == null || door.Faction.IsPlayer);
         }
 
         public override IEnumerable<FloatMenuOption> GetOptionsFor(Thing thing, FloatMenuContext context)
