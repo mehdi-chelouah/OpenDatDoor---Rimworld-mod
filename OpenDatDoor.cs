@@ -38,7 +38,7 @@ namespace ForceOpenDoor
 
         public override bool Applies(FloatMenuContext context)
         {
-            return context.ValidSelectedPawns.Any(p => p.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation));
+            return context.ValidSelectedPawns.Any(p => p.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation)) && context.ValidSelectedPawns.Count() == 1;
         }
 
         public override bool TargetThingValid(Thing thing, FloatMenuContext context)
