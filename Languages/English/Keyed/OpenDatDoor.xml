@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<Closethedoor>Close the door></Closethedoor>
-<Openthedoor>Open the door></Openthedoor>
+<Closethedoor>Close the door</Closethedoor>
+<Openthedoor>Open the door</Openthedoor>
 <Cannotreachthedoor>Cannot reach the door</Cannotreachthedoor>
 
 </LanguageData>
